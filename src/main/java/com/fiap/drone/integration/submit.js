@@ -1,4 +1,4 @@
-//Contração de um conjunto de pares chave/valor para serem enviados via JSON
+//Representação de um conjunto de pares chave/valor para serem enviados via JSON
 var serialize = function (form) {
    var json = {};
    var data = new FormData(form);
